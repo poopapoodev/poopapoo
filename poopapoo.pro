@@ -3,7 +3,8 @@ TEMPLATE = app
 QT += qml quick
 CONFIG += c++11
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    feeding/milkmodel.cpp
 
 RESOURCES += qml.qrc
 
@@ -31,3 +32,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     CMainMenu
+
+HEADERS += \
+    feeding/milkmodel.h
