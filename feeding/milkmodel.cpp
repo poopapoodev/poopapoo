@@ -7,7 +7,7 @@ CMilkModel::CMilkModel()
 	m_iMilkFormula = 0;
 }
 
-void CMilkModel::AddMilkNatural( int iMilk)
+void CMilkModel::FillDimensions( int iMilk)
 {
 	m_iMilkNatural = m_iMilkNatural + iMilk;
 }

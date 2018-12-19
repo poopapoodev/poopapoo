@@ -6,7 +6,7 @@ class CMilkModel
 {
 public:
 	CMilkModel();
-	void AddMilkNatural( int );
+	void FillDimensions( int );
 	void AddMilkFormula( int );
 	int GetMilkTotal();
 	int GetMilkNatural();

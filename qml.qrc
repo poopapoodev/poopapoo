@@ -4,5 +4,6 @@
         <file>MainForm.ui.qml</file>
         <file>CMainMenu.qml</file>
         <file>CButton.qml</file>
+        <file>CFeedMenu.qml</file>
     </qresource>
 </RCC>
